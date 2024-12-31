@@ -261,7 +261,7 @@ function App() {
     <div className="App">
       {/* Notice for ongoing work */}
       <div className="notice-banner">
-        <p>ওয়েব সাইটের কাজ চলমান । দয়া করে অপেক্ষা করুন।</p>
+        <p>ওয়েব সাইটের কাজ চলমান, কিছু ফিচার কাজ করছে না। দয়া করে অপেক্ষা করুন।</p>
       </div>
 
       {/* Madrasah Name */}
@@ -325,6 +325,11 @@ function App() {
           </table>
         </div>
       )}
+
+      {/* Footer */}
+      <footer>
+        <p>Developed by <a href="https://www.facebook.com/s.s0han" target="_blank" rel="noopener noreferrer">Sohan</a></p>
+      </footer>
     </div>
   );
 }
