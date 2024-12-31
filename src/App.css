@@ -146,3 +146,24 @@ button:hover {
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+footer {
+  background-color: #f8d7da; /* Light red background like a notice banner */
+  color: #721c24; /* Dark red text color */
+  text-align: center; /* Center the text horizontally */
+  padding: 15px; /* Add some padding to give it space */
+  font-size: 16px; /* Adjust font size */
+  margin-top: 20px; /* Add a little space above the footer */
+  width: 100%; /* Ensures the footer spans the full width */
+}
+
+footer a {
+  color: #155724; /* Dark green color for the link */
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px; /* Space between the text and link */
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
