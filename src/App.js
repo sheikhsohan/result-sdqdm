@@ -259,6 +259,11 @@ function App() {
 
   return (
     <div className="App">
+      {/* Notice for ongoing work */}
+      <div className="notice-banner">
+        <p>ওয়েব সাইটের কাজ চলমান । দয়া করে অপেক্ষা করুন।</p>
+      </div>
+
       {/* Madrasah Name */}
       <h2 className="madrasah-name">শরাফপুর দারুল কুরআন দাখিল মাদ্রাসা</h2>
 
