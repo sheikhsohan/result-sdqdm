@@ -259,18 +259,12 @@ function App() {
 
   return (
     <div className="App">
-      {/* Notice for ongoing work */}
-      <div className="notice-banner">
-        <p>ওয়েব সাইটের কাজ চলমান, কিছু ফিচার কাজ করছে না। দয়া করে অপেক্ষা করুন।</p>
-      </div>
-  <div className="notice-banner">
-        <p>ফলাফল দেখার নিয়মঃ যে সকল শিক্ষার্থী ৯ম শ্রেণীতে পরীক্ষা দিয়ে ১০ম শ্রেণীতে উত্তীর্ণ হয়েছে সে সকল শিক্ষার্থী দশম শ্রেণীতে প্রাপ্ত রোল নাম্বার দিয়ে ফলাফল দেখবে</p>
-      </div>
+      
 
       {/* Madrasah Name */}
-      <h2 className="madrasah-name">শরাফপুর দারুল কুরআন দাখিল মাদ্রাসা</h2>
+      <h1 className="madrasah-name">শরাফপুর দারুল কুরআন দাখিল মাদ্রাসা</h2>
 
-      <h1>মাদ্রাসা ফলাফল চেক করুন</h1>
+      <h2>মাদ্রাসা ফলাফল চেক করুন</h1>
 
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -328,6 +322,14 @@ function App() {
           </table>
         </div>
       )}
+
+  {/* Notice for ongoing work */}
+      <div className="notice-banner">
+        <p>ওয়েব সাইটের কাজ চলমান, কিছু ফিচার কাজ করছে না। দয়া করে অপেক্ষা করুন।</p>
+      </div>
+  <div className="notice-banner">
+        <p>ফলাফল দেখার নিয়মঃ যে সকল শিক্ষার্থী ৯ম শ্রেণীতে পরীক্ষা দিয়ে ১০ম শ্রেণীতে উত্তীর্ণ হয়েছে সে সকল শিক্ষার্থী দশম শ্রেণীতে প্রাপ্ত রোল নাম্বার দিয়ে ফলাফল দেখবে</p>
+      </div>
 
       {/* Footer */}
       <footer>
