@@ -259,7 +259,13 @@ function App() {
 
   return (
     <div className="App">
-      
+      {/* Notice for ongoing work */}
+      <div className="notice-banner">
+        <p>ওয়েব সাইটের কাজ চলমান। দয়া করে অপেক্ষা করুন।</p>
+      </div>
+  <div className="notice-banner">
+        <p>ফলাফল দেখার নিয়মঃ ৯ম শ্রেণীতে অংশগ্রহণকারী পরীক্ষার্থীরা শ্রেণী ১০ম সিলেক্ট করবে।</p>
+      </div>
 
       {/* Madrasah Name */}
       <h1 className="madrasah-name">শরাফপুর দারুল কুরআন দাখিল মাদ্রাসা</h2>
@@ -322,14 +328,6 @@ function App() {
           </table>
         </div>
       )}
-
-  {/* Notice for ongoing work */}
-      <div className="notice-banner">
-        <p>ওয়েব সাইটের কাজ চলমান। দয়া করে অপেক্ষা করুন।</p>
-      </div>
-  <div className="notice-banner">
-        <p>ফলাফল দেখার নিয়মঃ ৯ম শ্রেণীতে অংশগ্রহণকারী পরীক্ষার্থীরা শ্রেণী ১০ম সিলেক্ট করবে।</p>
-      </div>
 
       {/* Footer */}
       <footer>
