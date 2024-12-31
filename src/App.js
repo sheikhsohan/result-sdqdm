@@ -289,7 +289,7 @@ function App() {
             onChange={(e) => setClassName(e.target.value)}
           >
             <option value="">ক্লাস সিলেক্ট করুন</option>
-            <option value="৯ম শ্রেণী">১০ম শ্রেণী</option>
+            <option value="১০ম শ্রেণী">১০ম শ্রেণী</option>
           </select>
         </div>
 
