@@ -34,7 +34,7 @@ function App() {
 
   // Function to simulate getting a result based on roll and class
   const getMadrasahResult = (roll, className) => {
-    if (className === "৯ম শ্রেণী") {
+    if (className === "১০ম শ্রেণী") {
       return "আপনার ফলাফল : উত্তীর্ণ";
     }
     return "ফলাফল পাওয়া যায়নি";
@@ -42,7 +42,7 @@ function App() {
 
   // Function to simulate fetching subject-wise marks for 13 subjects
   const getSubjectMarks = (roll, className) => {
-    if (className === "৯ম শ্রেণী") {
+    if (className === "১০ম শ্রেণী") {
       const studentMarks = mockMarksData[roll - 1]; // Use roll number (1-based index)
       return studentMarks || [];
     }
@@ -289,7 +289,7 @@ function App() {
             onChange={(e) => setClassName(e.target.value)}
           >
             <option value="">ক্লাস সিলেক্ট করুন</option>
-            <option value="৯ম শ্রেণী">১০ম শ্রেনী (৯ম শ্রেণী)</option>
+            <option value="৯ম শ্রেণী">১০ম শ্রেণী</option>
           </select>
         </div>
 
