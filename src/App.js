@@ -268,9 +268,9 @@ function App() {
       </div>
 
       {/* Madrasah Name */}
-      <h1 className="madrasah-name">শরাফপুর দারুল কুরআন দাখিল মাদ্রাসা</h2>
+      <h1 className="madrasah-name">শরাফপুর দারুল কুরআন দাখিল মাদ্রাসা</h1>
 
-      <h2>মাদ্রাসা ফলাফল চেক করুন</h1>
+      <h2>মাদ্রাসা ফলাফল চেক করুন</h2>
 
       <form onSubmit={handleSubmit}>
         <div className="form-group">
