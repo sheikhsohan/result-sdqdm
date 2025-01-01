@@ -333,7 +333,7 @@ function App() {
 
       {/* Footer */}
       <footer>
-        <p>Developed by ♡<a href="https://www.facebook.com/s.s0han" target="_blank" rel="noopener noreferrer"> Sohan</a></p>
+        <p>Developed by ♡<a href="https://www.facebook.com/s.s0han" target="_blank" rel="noopener noreferrer">Sohan</a></p>
       </footer>
     </div>
   );
